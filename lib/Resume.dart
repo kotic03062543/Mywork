@@ -38,40 +38,88 @@ class Resume extends StatelessWidget {
               ),
             ),
           ),
-          Row(
-            children: const [
-              SizedBox(
-                height: 70,
-              ),
-              Icon(
-                Icons.email,
-                color: Color.fromARGB(255, 0, 0, 0),
-                size: 40,
-              ),
-              Text(
-                '6240011040@psu.ac.th',
-                style: TextStyle(
-                  fontFamily: 'Mali',
-                  fontSize: 25,
-                ),
-              )
-            ],
+          // Row(
+          //   children: const [
+          //     SizedBox(
+          //       height: 70,
+          //     ),
+          //     Icon(
+          //       Icons.email,
+          //       color: Color.fromARGB(255, 0, 0, 0),
+          //       size: 40,
+          //     ),
+          //     Text(
+          //       '6240011040@psu.ac.th',
+          //       style: TextStyle(
+          //         fontFamily: 'Mali',
+          //         fontSize: 25,
+          //       ),
+          //     )
+          //   ],
+          // ),
+          // Row(
+          //   children: const [
+          //     Icon(
+          //       Icons.phone,
+          //       color: Color.fromARGB(255, 0, 0, 0),
+          //       size: 40,
+          //     ),
+          //     Text(
+          //       '096 341 7577',
+          //       style: TextStyle(
+          //         fontFamily: 'Mali',
+          //         fontSize: 25,
+          //       ),
+          //     )
+          //   ],
+          // ),
+          SizedBox(
+            height: 20,
           ),
-          Row(
-            children: const [
-              Icon(
-                Icons.phone,
-                color: Color.fromARGB(255, 0, 0, 0),
-                size: 40,
-              ),
-              Text(
-                '096 341 7577',
-                style: TextStyle(
-                  fontFamily: 'Mali',
-                  fontSize: 25,
+          Padding(
+            padding: const EdgeInsets.only(left: 20),
+            child: Row(
+              children: [
+                Icon(
+                  Icons.email,
+                  size: 30,
                 ),
-              )
-            ],
+                Padding(
+                  padding: EdgeInsets.only(left: 20),
+                  child: Text(
+                    '6240011040@psu.ac.th',
+                    style: TextStyle(
+                      fontFamily: 'Mali',
+                      fontSize: 25,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          SizedBox(
+            height: 16,
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 20),
+            child: Row(
+              children: [
+                Icon(
+                  Icons.phone,
+                  size: 30,
+                ),
+                Padding(
+                  padding: EdgeInsets.only(left: 20),
+                  child: Text(
+                    '096 341 7577',
+                    style: TextStyle(
+                      fontFamily: 'Mali',
+                      fontSize: 25,
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ],
       ),
