@@ -1,5 +1,8 @@
 # myfirstapp
+![image](https://user-images.githubusercontent.com/98500757/180417623-5b1c6035-c082-40b1-9467-1ff8e3480b37.png)
 
+Name : Wanchaloem Phromjan
+STDID : 6240011040 
 A new Flutter project.
 
 ## Getting Started
